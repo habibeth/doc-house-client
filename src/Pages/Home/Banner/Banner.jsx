@@ -1,4 +1,4 @@
-import ActiveButton from "../../../components/ActiveButton";
+import ActiveButton from "../../../components/Button/ActiveButton";
 import bannerImg1 from '../../../assets/banner/banner1.png'
 import bannerImg2 from '../../../assets/banner/banner2.png'
 import bannerImg3 from '../../../assets/banner/banner3.png'

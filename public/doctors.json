@@ -7,6 +7,24 @@
         "location": "Dhanmondi, Dhaka, Bangladesh",
         "images": "https://i.ibb.co/xfkQ6Yf/Rectangle-15-1.png",
         "specialization": "Dental Surgeon",
+        "slots": [
+            "08.00 AM - 08.30 AM",
+            "08.30 AM - 09.00 AM",
+            "09.00 AM - 9.30 AM",
+            "09.30 AM - 10.00 AM",
+            "10.00 AM - 10.30 AM",
+            "10.30 AM - 11.00 AM",
+            "11.00 AM - 11.30 AM",
+            "11.30 AM - 12.00 AM",
+            "1.00 PM - 1.30 PM",
+            "1.30 PM - 2.00 PM",
+            "2.00 PM - 2.30 PM",
+            "2.30 PM - 3.00 PM",
+            "3.00 PM - 3.30 PM",
+            "3.30 PM - 4.00 PM",
+            "4.00 PM - 4.30 PM",
+            "4.30 PM - 5.00 PM"
+        ],        
         "education": [
             {
                 "university": "XYZ University",
@@ -50,6 +68,24 @@
         "location": "Dhanmondi, Dhaka, Bangladesh",
         "images": "https://i.ibb.co/Sxg5BMt/Rectangle-15-2.png",
         "specialization": "Pediatric Dentist",
+        "slots": [
+            "08.00 AM - 08.30 AM",
+            "08.30 AM - 09.00 AM",
+            "09.00 AM - 9.30 AM",
+            "09.30 AM - 10.00 AM",
+            "10.00 AM - 10.30 AM",
+            "10.30 AM - 11.00 AM",
+            "11.00 AM - 11.30 AM",
+            "11.30 AM - 12.00 AM",
+            "1.00 PM - 1.30 PM",
+            "1.30 PM - 2.00 PM",
+            "2.00 PM - 2.30 PM",
+            "2.30 PM - 3.00 PM",
+            "3.00 PM - 3.30 PM",
+            "3.30 PM - 4.00 PM",
+            "4.00 PM - 4.30 PM",
+            "4.30 PM - 5.00 PM"
+        ],
         "education": [
             {
                 "university": "ABC University",
@@ -88,6 +124,24 @@
         "location": "Dhanmondi, Dhaka, Bangladesh",
         "images": "https://i.ibb.co/JyjJ58T/Rectangle-15.png",
         "specialization": "Orthodontist",
+        "slots": [
+            "08.00 AM - 08.30 AM",
+            "08.30 AM - 09.00 AM",
+            "09.00 AM - 9.30 AM",
+            "09.30 AM - 10.00 AM",
+            "10.00 AM - 10.30 AM",
+            "10.30 AM - 11.00 AM",
+            "11.00 AM - 11.30 AM",
+            "11.30 AM - 12.00 AM",
+            "1.00 PM - 1.30 PM",
+            "1.30 PM - 2.00 PM",
+            "2.00 PM - 2.30 PM",
+            "2.30 PM - 3.00 PM",
+            "3.00 PM - 3.30 PM",
+            "3.30 PM - 4.00 PM",
+            "4.00 PM - 4.30 PM",
+            "4.30 PM - 5.00 PM"
+        ],
         "education": [
             {
                 "university": "DEF University",
@@ -131,6 +185,24 @@
         "location": "Dhanmondi, Dhaka, Bangladesh",
         "images": "https://i.ibb.co/xfkQ6Yf/Rectangle-15-1.png",
         "specialization": "Periodontist",
+        "slots": [
+            "08.00 AM - 08.30 AM",
+            "08.30 AM - 09.00 AM",
+            "09.00 AM - 9.30 AM",
+            "09.30 AM - 10.00 AM",
+            "10.00 AM - 10.30 AM",
+            "10.30 AM - 11.00 AM",
+            "11.00 AM - 11.30 AM",
+            "11.30 AM - 12.00 AM",
+            "1.00 PM - 1.30 PM",
+            "1.30 PM - 2.00 PM",
+            "2.00 PM - 2.30 PM",
+            "2.30 PM - 3.00 PM",
+            "3.00 PM - 3.30 PM",
+            "3.30 PM - 4.00 PM",
+            "4.00 PM - 4.30 PM",
+            "4.30 PM - 5.00 PM"
+        ],
         "education": [
             {
                 "university": "GHI University",
@@ -174,6 +246,24 @@
         "location": "Dhanmondi, Dhaka, Bangladesh",
         "images": "https://i.ibb.co/Sxg5BMt/Rectangle-15-2.png",
         "specialization": "Dental Surgeon",
+        "slots": [
+            "08.00 AM - 08.30 AM",
+            "08.30 AM - 09.00 AM",
+            "09.00 AM - 9.30 AM",
+            "09.30 AM - 10.00 AM",
+            "10.00 AM - 10.30 AM",
+            "10.30 AM - 11.00 AM",
+            "11.00 AM - 11.30 AM",
+            "11.30 AM - 12.00 AM",
+            "1.00 PM - 1.30 PM",
+            "1.30 PM - 2.00 PM",
+            "2.00 PM - 2.30 PM",
+            "2.30 PM - 3.00 PM",
+            "3.00 PM - 3.30 PM",
+            "3.30 PM - 4.00 PM",
+            "4.00 PM - 4.30 PM",
+            "4.30 PM - 5.00 PM"
+        ],
         "education": [
             {
                 "university": "XYZ University",
@@ -217,6 +307,24 @@
         "location": "Dhanmondi, Dhaka, Bangladesh",
         "images": "https://i.ibb.co/JyjJ58T/Rectangle-15.png",
         "specialization": "Pediatric Dentist",
+        "slots": [
+            "08.00 AM - 08.30 AM",
+            "08.30 AM - 09.00 AM",
+            "09.00 AM - 9.30 AM",
+            "09.30 AM - 10.00 AM",
+            "10.00 AM - 10.30 AM",
+            "10.30 AM - 11.00 AM",
+            "11.00 AM - 11.30 AM",
+            "11.30 AM - 12.00 AM",
+            "1.00 PM - 1.30 PM",
+            "1.30 PM - 2.00 PM",
+            "2.00 PM - 2.30 PM",
+            "2.30 PM - 3.00 PM",
+            "3.00 PM - 3.30 PM",
+            "3.30 PM - 4.00 PM",
+            "4.00 PM - 4.30 PM",
+            "4.30 PM - 5.00 PM"
+        ],
         "education": [
             {
                 "university": "ABC University",
@@ -255,6 +363,24 @@
         "location": "Dhanmondi, Dhaka, Bangladesh",
         "images": "https://i.ibb.co/xfkQ6Yf/Rectangle-15-1.png",
         "specialization": "Orthodontist",
+        "slots": [
+            "08.00 AM - 08.30 AM",
+            "08.30 AM - 09.00 AM",
+            "09.00 AM - 9.30 AM",
+            "09.30 AM - 10.00 AM",
+            "10.00 AM - 10.30 AM",
+            "10.30 AM - 11.00 AM",
+            "11.00 AM - 11.30 AM",
+            "11.30 AM - 12.00 AM",
+            "1.00 PM - 1.30 PM",
+            "1.30 PM - 2.00 PM",
+            "2.00 PM - 2.30 PM",
+            "2.30 PM - 3.00 PM",
+            "3.00 PM - 3.30 PM",
+            "3.30 PM - 4.00 PM",
+            "4.00 PM - 4.30 PM",
+            "4.30 PM - 5.00 PM"
+        ],
         "education": [
             {
                 "university": "DEF University",
@@ -298,6 +424,24 @@
         "location": "Dhanmondi, Dhaka, Bangladesh",
         "images": "https://i.ibb.co/Sxg5BMt/Rectangle-15-2.png",
         "specialization": "Periodontist",
+        "slots": [
+            "08.00 AM - 08.30 AM",
+            "08.30 AM - 09.00 AM",
+            "09.00 AM - 9.30 AM",
+            "09.30 AM - 10.00 AM",
+            "10.00 AM - 10.30 AM",
+            "10.30 AM - 11.00 AM",
+            "11.00 AM - 11.30 AM",
+            "11.30 AM - 12.00 AM",
+            "1.00 PM - 1.30 PM",
+            "1.30 PM - 2.00 PM",
+            "2.00 PM - 2.30 PM",
+            "2.30 PM - 3.00 PM",
+            "3.00 PM - 3.30 PM",
+            "3.30 PM - 4.00 PM",
+            "4.00 PM - 4.30 PM",
+            "4.30 PM - 5.00 PM"
+        ],
         "education": [
             {
                 "university": "GHI University",
