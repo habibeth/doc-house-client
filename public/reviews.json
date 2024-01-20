@@ -1,0 +1,50 @@
+[
+    {
+      "customerName": "Alice Johnson",
+      "customerProfession": "Marketing Specialist",
+      "rating": 5,
+      "date": "2024-01-15",
+      "reviewText": "I had a fantastic experience with the oral surgery team. The tooth extraction was painless, and the recovery process was quick. The staff was attentive, and the facilities were clean and modern. I appreciate the care they took in explaining the procedure and post-operative instructions. Highly recommended!",
+      "customerImage": "https://i.ibb.co/TB8yhrX/Ellipse-2.png"
+    },
+    {
+      "customerName": "Bob Smith",
+      "customerProfession": "IT Consultant",
+      "rating": 4,
+      "date": "2024-01-18",
+      "reviewText": "The pediatric dental team was excellent with my kids. The child dental checkup was thorough, and the staff was friendly. They made the experience fun for the kids, and the waiting area had a great selection of toys. The dentist took the time to address my concerns and provided helpful tips for at-home care. One of the best dental experiences for children.",
+      "customerImage": "https://i.ibb.co/4MpsFck/Ellipse-2-1.png"
+    },
+    {
+      "customerName": "Charlie Davis",
+      "customerProfession": "Teacher",
+      "rating": 5,
+      "date": "2024-01-20",
+      "reviewText": "The cavity protection treatments were effective, and the fluoride treatment made a noticeable difference in the strength of my teeth. The dental team was knowledgeable and answered all my questions. They also gave me personalized advice for maintaining good oral health. Overall, I'm happy with the results and the level of care I received.",
+      "customerImage": "https://i.ibb.co/TB8yhrX/Ellipse-2.png"
+    },
+    {
+      "customerName": "Diana Martinez",
+      "customerProfession": "Accountant",
+      "rating": 4,
+      "date": "2024-01-22",
+      "reviewText": "Teeth cleaning was professional, and the hygienist was thorough. The office atmosphere was welcoming, and the staff was friendly. The only reason I'm not giving 5 stars is because of a slight delay in my appointment. However, the quality of service made up for the minor inconvenience. I'll definitely be returning for future dental care.",
+      "customerImage": "https://i.ibb.co/4MpsFck/Ellipse-2-1.png"
+    },
+    {
+      "customerName": "Eddie Brown",
+      "customerProfession": "Graphic Designer",
+      "rating": 5,
+      "date": "2024-01-25",
+      "reviewText": "Cosmetic dentistry exceeded my expectations. The teeth whitening procedure was effective, and the results were noticeable after just one session. Dental veneers transformed my smile, and the dentist paid attention to every detail. The staff was professional, and the office had a comfortable ambiance. The results are amazing, and  with my new smile!",
+      "customerImage": "https://i.ibb.co/TB8yhrX/Ellipse-2.png"
+    },
+    {
+      "customerName": "Fiona White",
+      "customerProfession": "Architect",
+      "rating": 4,
+      "date": "2024-01-28",
+      "reviewText": "Braces installation for my daughter went smoothly, and the orthodontics team was supportive throughout the entire process. They explained the treatment plan in detail and provided clear instructions for care. The only downside was the length of the treatment, but the results were worth it. My daughter now of the orthodontic team.",
+      "customerImage": "https://i.ibb.co/4MpsFck/Ellipse-2-1.png"
+    }
+  ]

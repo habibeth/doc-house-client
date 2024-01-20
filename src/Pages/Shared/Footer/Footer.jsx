@@ -3,7 +3,7 @@ import footerLogo from '../../../assets/logo/footer-logo.png'
 const Footer = () => {
     return (
         <div className='bg-base-200'>
-            <div className="max-w-7xl mx-auto">
+            <div className="max-w-6xl mx-auto">
                 <footer className="footer p-10 text-base-content">
                     <aside>
                         <div className="flex items-center mb-6">

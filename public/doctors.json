@@ -1,0 +1,336 @@
+[
+    {
+        "id": 1,
+        "doctorName": "Dr. Sarah Johnson",
+        "availableOn": " Mon, 22 December",
+        "visitAmount": "$200",
+        "location": "Dhanmondi, Dhaka, Bangladesh",
+        "images": "https://i.ibb.co/xfkQ6Yf/Rectangle-15-1.png",
+        "specialization": "Dental Surgeon",
+        "education": [
+            {
+                "university": "XYZ University",
+                "degree": "Doctor of Dental Medicine (DMD)"
+            },
+            {
+                "university": "ABC School of Oral Surgery",
+                "degree": "Advanced Training in Oral Surgery"
+            }
+        ],
+        "workExperience": "10 years",
+        "services": [
+            "Tooth Extractions",
+            "Jaw Surgeries",
+            "Dental Implants"
+        ],
+        "awards": [
+            {
+                "awardName": "Best Dental Surgeon Award",
+                "awardDescription": "Recognizing excellence in oral surgery",
+                "awardYear": 2018
+            },
+            {
+                "awardName": "Excellence in Oral Surgery",
+                "awardDescription": "Outstanding contributions to the field",
+                "awardYear": 2020
+            }
+        ],
+        "specializations": [
+            "Oral Surgery",
+            "Implantology",
+            "Maxillofacial Reconstruction"
+        ],
+        "biography": "Dr. Sarah Johnson is a highly skilled dental surgeon with a passion for providing quality oral care. She specializes in oral surgery procedures, including tooth extractions and jaw surgeries. Dr. Johnson completed her Doctor of Dental Medicine (DMD) from XYZ University and has advanced training in oral surgery. With 10 years of experience, she offers a range of services, including dental implants. Dr. Johnson has received several awards for her excellence in oral surgery."
+    },
+    {
+        "id": 2,
+        "doctorName": "Dr. Michael Davis",
+        "availableOn": " Mon, 22 December",
+        "visitAmount": "$250",
+        "location": "Dhanmondi, Dhaka, Bangladesh",
+        "images": "https://i.ibb.co/Sxg5BMt/Rectangle-15-2.png",
+        "specialization": "Pediatric Dentist",
+        "education": [
+            {
+                "university": "ABC University",
+                "degree": "Doctor of Dental Medicine (DMD)"
+            },
+            {
+                "university": "Children's Dentistry Institute",
+                "degree": "Pediatric Dentistry Residency Program"
+            }
+        ],
+        "workExperience": "8 years",
+        "services": [
+            "Child Dental Checkups",
+            "Sealants for Kids",
+            "Behavior Management"
+        ],
+        "awards": [
+            {
+                "awardName": "Outstanding Pediatric Dentist",
+                "awardDescription": "Recognizing excellence in pediatric dentistry",
+                "awardYear": 2019
+            }
+        ],
+        "specializations": [
+            "Pediatric Dentistry",
+            "Behavior Management",
+            "Preventive Dentistry"
+        ],
+        "biography": "Dr. Michael Davis is a dedicated pediatric dentist who takes pride in creating positive dental experiences for children. He earned his Doctor of Dental Medicine (DMD) from ABC University and completed a Pediatric Dentistry Residency Program. With 8 years of experience, Dr. Davis offers services such as child dental checkups and sealants for kids. He is known for his gentle approach and has received recognition as an outstanding pediatric dentist."
+    },
+    {
+        "id": 3,
+        "doctorName": "Dr. Emily White",
+        "availableOn": " Mon, 22 December",
+        "visitAmount": "$200",
+        "location": "Dhanmondi, Dhaka, Bangladesh",
+        "images": "https://i.ibb.co/JyjJ58T/Rectangle-15.png",
+        "specialization": "Orthodontist",
+        "education": [
+            {
+                "university": "DEF University",
+                "degree": "Doctor of Dental Medicine (DMD)"
+            },
+            {
+                "university": "XYZ Institute of Orthodontics",
+                "degree": "Master of Science in Orthodontics (MS)"
+            }
+        ],
+        "workExperience": "12 years",
+        "services": [
+            "Braces Installation",
+            "Invisalign Treatment",
+            "Orthodontic Consultations"
+        ],
+        "awards": [
+            {
+                "awardName": "Orthodontist of the Year",
+                "awardDescription": "Recognizing excellence in orthodontics",
+                "awardYear": 2017
+            },
+            {
+                "awardName": "Excellence in Braces Installation",
+                "awardDescription": "Outstanding contributions to orthodontic care",
+                "awardYear": 2021
+            }
+        ],
+        "specializations": [
+            "Orthodontics",
+            "Invisalign",
+            "TMJ Disorders"
+        ],
+        "biography": "Dr. Emily White is a skilled orthodontist with a focus on creating beautiful smiles. She holds a Doctor of Dental Medicine (DMD) from DEF University and completed her Master of Science in Orthodontics (MS) from XYZ Institute of Orthodontics. With 12 years of experience, Dr. White specializes in orthodontic treatments such as braces and Invisalign. She has received awards for her outstanding contributions to orthodontics."
+    },
+    {
+        "id": 4,
+        "doctorName": "Dr. James Miller",
+        "availableOn": " Mon, 22 December",
+        "visitAmount": "$200",
+        "location": "Dhanmondi, Dhaka, Bangladesh",
+        "images": "https://i.ibb.co/xfkQ6Yf/Rectangle-15-1.png",
+        "specialization": "Periodontist",
+        "education": [
+            {
+                "university": "GHI University",
+                "degree": "Doctor of Dental Medicine (DMD)"
+            },
+            {
+                "university": "Periodontology Institute",
+                "degree": "Specialized Training in Periodontics"
+            }
+        ],
+        "workExperience": "15 years",
+        "services": [
+            "Gum Disease Treatment",
+            "Periodontal Surgery",
+            "Dental Implant Placement"
+        ],
+        "awards": [
+            {
+                "awardName": "Periodontist of the Year",
+                "awardDescription": "Recognizing excellence in periodontics",
+                "awardYear": 2015
+            },
+            {
+                "awardName": "Excellence in Periodontal Surgery",
+                "awardDescription": "Outstanding contributions to periodontal care",
+                "awardYear": 2019
+            }
+        ],
+        "specializations": [
+            "Periodontics",
+            "Implantology",
+            "Gum Grafting"
+        ],
+        "biography": "Dr. Sarah Johnson is a highly skilled dental surgeon with a passion for providing quality oral care. She specializes in oral surgery procedures, including tooth extractions and jaw surgeries. Dr. Johnson completed her Doctor of Dental Medicine (DMD) from XYZ University and has advanced training in oral surgery. With 10 years of experience, she offers a range of services, including dental implants. Dr. Johnson has received several awards for her excellence in oral surgery."
+    },
+    {
+        "id": 5,
+        "doctorName": "Dr. Sarah Johnson",
+        "availableOn": " Mon, 22 December",
+        "visitAmount": "$200",
+        "location": "Dhanmondi, Dhaka, Bangladesh",
+        "images": "https://i.ibb.co/Sxg5BMt/Rectangle-15-2.png",
+        "specialization": "Dental Surgeon",
+        "education": [
+            {
+                "university": "XYZ University",
+                "degree": "Doctor of Dental Medicine (DMD)"
+            },
+            {
+                "university": "ABC School of Oral Surgery",
+                "degree": "Advanced Training in Oral Surgery"
+            }
+        ],
+        "workExperience": "10 years",
+        "services": [
+            "Tooth Extractions",
+            "Jaw Surgeries",
+            "Dental Implants"
+        ],
+        "awards": [
+            {
+                "awardName": "Best Dental Surgeon Award",
+                "awardDescription": "Recognizing excellence in oral surgery",
+                "awardYear": 2018
+            },
+            {
+                "awardName": "Excellence in Oral Surgery",
+                "awardDescription": "Outstanding contributions to the field",
+                "awardYear": 2020
+            }
+        ],
+        "specializations": [
+            "Oral Surgery",
+            "Implantology",
+            "Maxillofacial Reconstruction"
+        ],
+        "biography": "Dr. Sarah Johnson is a highly skilled dental surgeon with a passion for providing quality oral care. She specializes in oral surgery procedures, including tooth extractions and jaw surgeries. Dr. Johnson completed her Doctor of Dental Medicine (DMD) from XYZ University and has advanced training in oral surgery. With 10 years of experience, she offers a range of services, including dental implants. Dr. Johnson has received several awards for her excellence in oral surgery."
+    },
+    {
+        "id": 6,
+        "doctorName": "Dr. Michael Davis",
+        "availableOn": " Mon, 22 December",
+        "visitAmount": "$200",
+        "location": "Dhanmondi, Dhaka, Bangladesh",
+        "images": "https://i.ibb.co/JyjJ58T/Rectangle-15.png",
+        "specialization": "Pediatric Dentist",
+        "education": [
+            {
+                "university": "ABC University",
+                "degree": "Doctor of Dental Medicine (DMD)"
+            },
+            {
+                "university": "Children's Dentistry Institute",
+                "degree": "Pediatric Dentistry Residency Program"
+            }
+        ],
+        "workExperience": "8 years",
+        "services": [
+            "Child Dental Checkups",
+            "Sealants for Kids",
+            "Behavior Management"
+        ],
+        "awards": [
+            {
+                "awardName": "Outstanding Pediatric Dentist",
+                "awardDescription": "Recognizing excellence in pediatric dentistry",
+                "awardYear": 2019
+            }
+        ],
+        "specializations": [
+            "Pediatric Dentistry",
+            "Behavior Management",
+            "Preventive Dentistry"
+        ],
+        "biography": "Dr. Michael Davis is a dedicated pediatric dentist who takes pride in creating positive dental experiences for children. He earned his Doctor of Dental Medicine (DMD) from ABC University and completed a Pediatric Dentistry Residency Program. With 8 years of experience, Dr. Davis offers services such as child dental checkups and sealants for kids. He is known for his gentle approach and has received recognition as an outstanding pediatric dentist."
+    },
+    {
+        "id": 7,
+        "doctorName": "Dr. Emily White",
+        "availableOn": " Mon, 22 December",
+        "visitAmount": "$200",
+        "location": "Dhanmondi, Dhaka, Bangladesh",
+        "images": "https://i.ibb.co/xfkQ6Yf/Rectangle-15-1.png",
+        "specialization": "Orthodontist",
+        "education": [
+            {
+                "university": "DEF University",
+                "degree": "Doctor of Dental Medicine (DMD)"
+            },
+            {
+                "university": "XYZ Institute of Orthodontics",
+                "degree": "Master of Science in Orthodontics (MS)"
+            }
+        ],
+        "workExperience": "12 years",
+        "services": [
+            "Braces Installation",
+            "Invisalign Treatment",
+            "Orthodontic Consultations"
+        ],
+        "awards": [
+            {
+                "awardName": "Orthodontist of the Year",
+                "awardDescription": "Recognizing excellence in orthodontics",
+                "awardYear": 2017
+            },
+            {
+                "awardName": "Excellence in Braces Installation",
+                "awardDescription": "Outstanding contributions to orthodontic care",
+                "awardYear": 2021
+            }
+        ],
+        "specializations": [
+            "Orthodontics",
+            "Invisalign",
+            "TMJ Disorders"
+        ],
+        "biography": "Dr. Emily White is a skilled orthodontist with a focus on creating beautiful smiles. She holds a Doctor of Dental Medicine (DMD) from DEF University and completed her Master of Science in Orthodontics (MS) from XYZ Institute of Orthodontics. With 12 years of experience, Dr. White specializes in orthodontic treatments such as braces and Invisalign. She has received awards for her outstanding contributions to orthodontics."
+    },
+    {
+        "id": 8,
+        "doctorName": "Dr. James Miller",
+        "availableOn": " Mon, 22 December",
+        "visitAmount": "$200",
+        "location": "Dhanmondi, Dhaka, Bangladesh",
+        "images": "https://i.ibb.co/Sxg5BMt/Rectangle-15-2.png",
+        "specialization": "Periodontist",
+        "education": [
+            {
+                "university": "GHI University",
+                "degree": "Doctor of Dental Medicine (DMD)"
+            },
+            {
+                "university": "Periodontology Institute",
+                "degree": "Specialized Training in Periodontics"
+            }
+        ],
+        "workExperience": "15 years",
+        "services": [
+            "Gum Disease Treatment",
+            "Periodontal Surgery",
+            "Dental Implant Placement"
+        ],
+        "awards": [
+            {
+                "awardName": "Periodontist of the Year",
+                "awardDescription": "Recognizing excellence in periodontics",
+                "awardYear": 2015
+            },
+            {
+                "awardName": "Excellence in Periodontal Surgery",
+                "awardDescription": "Outstanding contributions to periodontal care",
+                "awardYear": 2019
+            }
+        ],
+        "specializations": [
+            "Periodontics",
+            "Implantology",
+            "Gum Grafting"
+        ],
+        "biography": "Dr. Sarah Johnson is a highly skilled dental surgeon with a passion for providing quality oral care. She specializes in oral surgery procedures, including tooth extractions and jaw surgeries. Dr. Johnson completed her Doctor of Dental Medicine (DMD) from XYZ University and has advanced training in oral surgery. With 10 years of experience, she offers a range of services, including dental implants. Dr. Johnson has received several awards for her excellence in oral surgery."
+    }
+]
