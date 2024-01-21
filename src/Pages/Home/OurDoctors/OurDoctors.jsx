@@ -71,7 +71,6 @@ const OurDoctors = () => {
                                             <button className="btn w-full btn-outline btn-warning">View Profile</button>
                                         </div>
                                     </Link>
-
                                 </div>
                             </div>
                         </SwiperSlide>)
