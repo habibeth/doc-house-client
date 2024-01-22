@@ -5,10 +5,11 @@ import DoctorInfo from "../DoctorInfo/DoctorInfo";
 
 const DoctorProfile = () => {
     return (
-        <div className="bg-base-200 min-h-screen">
+        <div className="bg-gray-200 pb-32">
             <SharedBanner></SharedBanner>
             <DoctorInfo></DoctorInfo>
             <DoctorDetails></DoctorDetails>
+                      
         </div>
     );
 };
