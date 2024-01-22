@@ -6,7 +6,7 @@ import useAuth from '../../hooks/useAuth';
 
 const Login = () => {
     const {user} = useAuth()
-    // console.log(user)
+    console.log(user)
 
     const {
         register,
