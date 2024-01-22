@@ -8,18 +8,19 @@ import 'swiper/css/navigation';
 import { Autoplay, Navigation } from 'swiper/modules';
 import { useEffect, useState } from 'react';
 import { FaQuoteLeft } from "react-icons/fa";
+import useAxiosPublic from '../../../hooks/useAxiosPublic';
 
 
 
 const ClientReviews = () => {
+    const axiosPublic = useAxiosPublic()
     const [reviews, setReviews] = useState([]);
 
     useEffect(() => {
-        fetch('reviews.json')
-            .then(res => res.json())
-            .then(data => setReviews(data))
-    }, []);
-    console.log(reviews)
+        axiosPublic.get('/reviews')
+        .then(res=> setReviews(res.data))
+    }, [axiosPublic]);
+    // console.log(reviews)
     return (
         <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">

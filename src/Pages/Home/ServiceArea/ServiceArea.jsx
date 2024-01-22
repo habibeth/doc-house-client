@@ -3,21 +3,22 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import './ServiceArea.css'
 import { useEffect, useState } from 'react';
+import useAxiosPublic from '../../../hooks/useAxiosPublic'
+
 
 const ServiceArea = () => {
     const [tabIndex, setTabIndex] = useState(0);
     const [services, setServices] = useState([]);
-
+    const axiosPublic = useAxiosPublic();
     useEffect(() => {
-        fetch('service.json')
-            .then(res => res.json())
-            .then(data => setServices(data))
-    }, [])
+        axiosPublic.get('/services')
+        .then(res=> setServices(res.data))
+    }, [axiosPublic])
 
     const oralSurgery = services.find(service => service.category === 'oralSurgery');
     const cavityProtection = services.find(service => service.category === 'cavityProtection');
     const cosmeticDentistry = services.find(service => service.category === 'cosmeticDentistry');
-    console.log(oralSurgery)
+    // console.log(oralSurgery)
     return (
         <div className='mt-32 grid grid-cols-1 md:grid-cols-2 gap-5 max-w-6xl mx-auto'>
             <div className="">

@@ -2,10 +2,13 @@ import { useForm } from "react-hook-form";
 import loginImg from '../../assets/login/loginbg.jpg'
 import { Link, useNavigate } from 'react-router-dom';
 import useAuth from "../../hooks/useAuth";
+import Swal from "sweetalert2";
+import useAxiosPublic from "../../hooks/useAxiosPublic";
 
 const Register = () => {
-    const {createUser} = useAuth();
-    const navugate = useNavigate()
+    const { createUser, updateUser } = useAuth();
+    const navigate = useNavigate();
+    const axiosPublic = useAxiosPublic()
     const {
         register,
         handleSubmit,
@@ -15,10 +18,30 @@ const Register = () => {
     const onSubmit = (data) => {
         console.log(data);
         createUser(data?.email, data?.password)
-        .then(res=> {
-            console.log(res.user)
-        })
-        .catch(error=> console.log(error))
+            .then(res => {
+                console.log(res.user)
+                updateUser(data.name)
+                    .then(() => {
+                        const userInfo = {
+                            name: data.name,
+                            email: data.email
+                        }
+                        axiosPublic.post('/users', userInfo)
+                            .then(res => {
+                                console.log(res.data)
+                                if (res.data.insertedId) {
+                                    Swal.fire({
+                                        icon: "success",
+                                        title: "User Created Successfully",
+                                        showConfirmButton: false,
+                                        timer: 1500
+                                    });
+                                    navigate('/');
+                                }
+                            })
+                    })
+            })
+            .catch(error => console.log(error))
     }
     return (
         <div>
@@ -42,11 +65,11 @@ const Register = () => {
                             </div>
                             <div className="form-control">
                                 <label className="label">
-                                    <span className="label-text text-xl font-bold">User Name</span>
+                                    <span className="label-text text-xl font-bold">Photo URL</span>
                                 </label>
                                 <input
                                     type="text"
-                                    {...register("userName", { required: true })}
+                                    {...register("photo", { required: true })}
                                     placeholder="User Name"
                                     className="input input-bordered" required />
                             </div>
@@ -70,7 +93,7 @@ const Register = () => {
                             <div className="form-control mt-6">
                                 {/* <input type='submit' className="btn btn-primary">Login</input> */}
                                 <input type="submit" value="Create Account" className='btn bg-[#F7A582] text-white' />
-                            </div>                            
+                            </div>
                         </form>
                         <p className="text-center pb-10">Already Have an Account. Please <Link className="text-green-600 uppercase" to="/login">Sign In</Link></p>
                     </div>

@@ -1,11 +1,13 @@
 import { useForm } from 'react-hook-form';
 import loginImg from '../../assets/login/loginbg.jpg'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
+import Swal from 'sweetalert2';
 // import loginImg1 from '../../assets/login/Screenshot_3-removebg-preview.png'
 
 const Login = () => {
-    const {user} = useAuth()
+    const {user, loginUser} = useAuth()
+    const navigate = useNavigate();
     console.log(user)
 
     const {
@@ -14,7 +16,21 @@ const Login = () => {
         // formState: { errors },
     } = useForm()
 
-    const onSubmit = (data) => console.log(data)
+    const onSubmit = (data) => {
+        // console.log(data);
+        loginUser(data.email, data.password)
+        .then(res=>{
+            // console.log(res.user)
+            Swal.fire({
+                icon: "success",
+                title: "User Login Successfully",
+                showConfirmButton: false,
+                timer: 1500
+            });
+            navigate('/');
+        })
+        .catch(error=> console.log(error))
+    }
     return (
         <div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 justify-center items-center">

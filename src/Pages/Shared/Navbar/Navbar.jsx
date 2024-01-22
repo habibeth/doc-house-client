@@ -1,12 +1,37 @@
 import { NavLink } from 'react-router-dom';
 import logo from '../../../assets/logo/logo.png'
+import useAuth from '../../../hooks/useAuth'
+import Swal from 'sweetalert2';
 
 const Navbar = () => {
+    const { user, logOut } = useAuth();
+    const handleLogout=()=>{
+        logOut()
+        .then(()=>{
+            Swal.fire({
+                icon: "success",
+                title: "Successfully you are Logout",
+                showConfirmButton: false,
+                timer: 1500
+              });
+        })
+        .catch(error=> console.log(error))
+    }
     const menuItems = <>
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/about">About</NavLink></li>
         <li><NavLink to="/appointment">Appointment</NavLink></li>
-        <li><NavLink to="/login">Login</NavLink></li>
+        {
+            user ?
+                <>
+                    <li><button>{user.displayName}</button></li>
+                    <li><button onClick={handleLogout}>Logout</button></li>
+                </>
+                :
+                <>
+                    <li><NavLink to="/login">Login</NavLink></li>
+                </>
+        }
     </>
 
     return (

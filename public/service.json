@@ -4,7 +4,7 @@
         "category": "oralSurgery",
         "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error Sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
         "duration": "1 hour",
-        "cost": "$500",
+        "cost": 500,
         "image": "https://i.ibb.co/2SNTKY2/Rectangle-10-1.png"
     },
     {
@@ -12,7 +12,7 @@
         "category": "oralSurgery",
         "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error Sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
         "duration": "2 hours",
-        "cost": "$1,200",
+        "cost": 1200,
         "image": "https://i.ibb.co/Lphckhv/Rectangle-10.png"
     },
     {
@@ -20,7 +20,7 @@
         "category": "pediatricDental",
         "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error Sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
         "duration": "30 minutes",
-        "cost": "$100",
+        "cost": 100,
         "image": "https://i.ibb.co/2SNTKY2/Rectangle-10-1.png"
     },
     {
@@ -28,7 +28,7 @@
         "category": "pediatricDental",
         "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error Sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
         "duration": "1 hour",
-        "cost": "$150",
+        "cost": 150,
         "image": "https://i.ibb.co/Lphckhv/Rectangle-10.png"
     },
     {
@@ -36,7 +36,7 @@
         "category": "cavityProtection",
         "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error Sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
         "duration": "30 minutes",
-        "cost": "$50",
+        "cost": 50,
         "image": "https://i.ibb.co/2SNTKY2/Rectangle-10-1.png"
     },
     {
@@ -44,7 +44,7 @@
         "category": "cavityProtection",
         "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error Sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
         "duration": "1 hour",
-        "cost": "$75",
+        "cost": 75,
         "image": "https://i.ibb.co/Lphckhv/Rectangle-10.png"
     },
     {
@@ -52,7 +52,7 @@
         "category": "teethCleaning",
         "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error Sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
         "duration": "1 hour",
-        "cost": "$80",
+        "cost": 80,
         "image": "https://i.ibb.co/2SNTKY2/Rectangle-10-1.png"
     },
     {
@@ -60,7 +60,7 @@
         "category": "teethCleaning",
         "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error Sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
         "duration": "2 hours",
-        "cost": "$120",
+        "cost": 120,
         "image": "https://i.ibb.co/Lphckhv/Rectangle-10.png"
     },
     {
@@ -68,7 +68,7 @@
         "category": "cosmeticDentistry",
         "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error Sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
         "duration": "1 hour",
-        "cost": "$150",
+        "cost": 150,
         "image": "https://i.ibb.co/2SNTKY2/Rectangle-10-1.png"
     },
     {
@@ -76,7 +76,7 @@
         "category": "cosmeticDentistry",
         "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error Sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
         "duration": "2 hours",
-        "cost": "$500",
+        "cost": 500,
         "image": "https://i.ibb.co/Lphckhv/Rectangle-10.png"
     },
     {
@@ -84,7 +84,7 @@
         "category": "teethOrthodontics",
         "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error Sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
         "duration": "2 hours",
-        "cost": "$2,000",
+        "cost": 2000,
         "image": "https://i.ibb.co/2SNTKY2/Rectangle-10-1.png"
     },
     {
@@ -92,7 +92,7 @@
         "category": "teethOrthodontics",
         "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error Sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo.rection.",
         "duration": "1 year",
-        "cost": "$4,000",
+        "cost": 4000,
         "image": "https://i.ibb.co/Lphckhv/Rectangle-10.png"
     }
 ]
