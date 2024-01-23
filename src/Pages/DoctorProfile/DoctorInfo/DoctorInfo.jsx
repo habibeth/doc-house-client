@@ -9,7 +9,7 @@ const DoctorInfo = () => {
     const [doctors] = useDoctors();
     const { id } = useParams();
     const doctor = doctors.find(doc => doc._id === id)
-    console.log(doctor)
+    // console.log(doctor)
     return (
         <div className="max-w-6xl mx-auto my-32">
             <div className="hero bg-white rounded-lg">

@@ -51,6 +51,7 @@ const AuthProvider = ({ children }) => {
                 axiosPublic.post('/logout', loggedUser, {withCredentials: true})
                 .then(res=>{
                     console.log(res.data)
+                    // setLoading(false)
                 })
             }
             // console.log(currentUser)

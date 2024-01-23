@@ -6,7 +6,7 @@ import DoctorInfo from "../DoctorInfo/DoctorInfo";
 const DoctorProfile = () => {
     return (
         <div className="bg-gray-200 pb-32">
-            <SharedBanner></SharedBanner>
+            <SharedBanner pagination={"Home/DoctorsProfile"} title={"Doctor Profile"}></SharedBanner>
             <DoctorInfo></DoctorInfo>
             <DoctorDetails></DoctorDetails>
                       
