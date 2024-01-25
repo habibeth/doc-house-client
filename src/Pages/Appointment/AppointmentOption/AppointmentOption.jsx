@@ -1,8 +1,14 @@
 
 
-const AppointmentOption = ({ appointment }) => {
-    console.log(appointment)
+const AppointmentOption = ({ appointment, setTreatment }) => {
+    // console.log(appointment)
     const { name, image } = appointment;
+    // setTreatment(appointment);
+    // const handleClick = () => {
+    //     document.getElementById('booking-modal').showModal();
+    //     // setTreatment(appointment);
+    // }
+
     return (
         <div className="">
             <div className="shadow-xl rounded-xl">
@@ -13,8 +19,8 @@ const AppointmentOption = ({ appointment }) => {
                     <h2 className="text-2xl font-bold mt-7 text-center">{name}</h2>
                 </div>
                 <div className="flex justify-center mt-10 pb-14">
-                    <button className="btn bg-[#F7A582] text-white">Book Appointment</button>
-                </div>
+                    <button onClick={() => { document.getElementById('my_modal_3').showModal(); setTreatment(appointment) }} className="btn bg-[#F7A582] text-white">Book Appointment</button>
+                </div> 
             </div>
         </div>
     );
