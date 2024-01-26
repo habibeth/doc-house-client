@@ -1,14 +1,16 @@
 import { useForm } from 'react-hook-form';
 import loginImg from '../../assets/login/loginbg.jpg'
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 import Swal from 'sweetalert2';
 // import loginImg1 from '../../assets/login/Screenshot_3-removebg-preview.png'
 
 const Login = () => {
-    const {user, loginUser} = useAuth()
+    const { loginUser } = useAuth();
+    const location = useLocation();
     const navigate = useNavigate();
-    console.log(user)
+    // console.log(user)
+    const from = location?.state?.from.pathname || '/'
 
     const {
         register,
@@ -19,17 +21,18 @@ const Login = () => {
     const onSubmit = (data) => {
         // console.log(data);
         loginUser(data.email, data.password)
-        .then(res=>{
-            // console.log(res.user)
-            Swal.fire({
-                icon: "success",
-                title: "User Login Successfully",
-                showConfirmButton: false,
-                timer: 1500
-            });
-            navigate('/');
-        })
-        .catch(error=> console.log(error))
+            .then(res => {
+                const user = res.user;
+                console.log(user)
+                Swal.fire({
+                    icon: "success",
+                    title: "User Login Successfully",
+                    showConfirmButton: false,
+                    timer: 1500
+                });
+                navigate(from, {replace: true});
+            })
+            .catch(error => console.log(error))
     }
     return (
         <div>

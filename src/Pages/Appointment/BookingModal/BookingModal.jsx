@@ -1,11 +1,14 @@
 import { format } from "date-fns";
 import useAuth from '../../../hooks/useAuth';
+import useAxiosSecure from "../../../hooks/useAxiosSecure";
 
-const BookingModal = ({ treatment, selected }) => {
+const BookingModal = ({ treatment, selected, refetch }) => {
     const date = format(selected, 'PP');
+    // console.log(date)
     const { name: treatmentName, slots, price } = treatment;
     const { user } = useAuth();
-    const handleBookingData = (e) => {
+    const axiosSecure = useAxiosSecure()
+    const handleBookingData = async(e) => {
         e.preventDefault();
         const form = e.target;
         const date = form.date.value;
@@ -23,7 +26,12 @@ const BookingModal = ({ treatment, selected }) => {
             slot,
             price
         }
-        console.log(bookingInfo)
+        // console.log(bookingInfo)
+        const result = await axiosSecure.post('/bookings', bookingInfo);
+        console.log(result.data)
+        if(result.data.insertedId){
+            refetch();
+        }
     }
 
     return (
@@ -36,7 +44,7 @@ const BookingModal = ({ treatment, selected }) => {
                 <h3 className="font-bold text-lg">{treatmentName}</h3>
                 <form className="mt-5" onSubmit={handleBookingData}>
                     <div className="form-control mb-5">
-                        <input type="text" name="date" defaultValue={date} disabled className="input input-bordered" required />
+                        <input type="text" name="date" value={date} disabled className="input input-bordered" required />
                     </div>
                     <div className="form-control mb-5">
                         <select name="slot" id="" className="select select-bordered">

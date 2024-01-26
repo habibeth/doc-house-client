@@ -5,6 +5,7 @@ import DoctorProfile from "../Pages/DoctorProfile/DoctorProfile/DoctorProfile";
 import Login from "../Pages/Login/Login";
 import Register from "../Pages/Register/Register";
 import Appointment from "../Pages/Appointment/Appointment/Appointment";
+import PrivateRoute from "./PrivateRoute";
 
 
 const router = createBrowserRouter([
@@ -30,7 +31,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/appointment',
-                element: <Appointment></Appointment>
+                element: <PrivateRoute><Appointment></Appointment></PrivateRoute>
             },
         ]
     },

@@ -5,11 +5,13 @@ import useAxiosPublic from '../../../hooks/useAxiosPublic'
 import AppointmentOption from './AppointmentOption'
 import { useState } from 'react';
 import BookingModal from '../BookingModal/BookingModal';
+import Loading from '../../Shared/Loading/Loading';
 
 const AvailableAppointment = ({ selected }) => {
     const [treatment, setTreatment] = useState([])
     const date = format(selected, 'PP');
-    const axiosPublic = useAxiosPublic()
+    const axiosPublic = useAxiosPublic();
+    
     const { data: appointmentOption, refetch, isLoading } = useQuery({
         queryKey: ['appointmentOption', date],
         queryFn: async () => {
@@ -17,6 +19,10 @@ const AvailableAppointment = ({ selected }) => {
             return res.data;
         }
     })
+    
+    if(isLoading){
+        return <Loading></Loading>;
+    }
     // console.log(appointmentOption)
     // console.log(treatment)
     return (
