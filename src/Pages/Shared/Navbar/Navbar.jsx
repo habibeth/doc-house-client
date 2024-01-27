@@ -2,6 +2,7 @@ import { NavLink } from 'react-router-dom';
 import logo from '../../../assets/logo/logo.png'
 import useAuth from '../../../hooks/useAuth'
 import Swal from 'sweetalert2';
+import './Navbar.css'
 
 const Navbar = () => {
     const { user, logOut } = useAuth();
@@ -21,6 +22,7 @@ const Navbar = () => {
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/about">About</NavLink></li>
         <li><NavLink to="/appointment">Appointment</NavLink></li>
+        <li><NavLink to="/dashboard">Dashboard</NavLink></li>
         {
             user ?
                 <>
@@ -35,9 +37,9 @@ const Navbar = () => {
     </>
 
     return (
-        <div className="">
+        <div className="bg-[#07332F] bg-navbar">
             <div className='text-white max-w-6xl mx-auto'>
-                <div className="navbar fixed z-50">
+                <div className="navbar">
                     <div className="navbar-start">
                         <div className="dropdown">
                             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

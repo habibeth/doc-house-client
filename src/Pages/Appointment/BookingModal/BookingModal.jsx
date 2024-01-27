@@ -1,14 +1,16 @@
 import { format } from "date-fns";
 import useAuth from '../../../hooks/useAuth';
 import useAxiosSecure from "../../../hooks/useAxiosSecure";
+import Swal from "sweetalert2";
 
 const BookingModal = ({ treatment, selected, refetch }) => {
     const date = format(selected, 'PP');
     // console.log(date)
     const { name: treatmentName, slots, price } = treatment;
     const { user } = useAuth();
-    const axiosSecure = useAxiosSecure()
-    const handleBookingData = async(e) => {
+    const axiosSecure = useAxiosSecure();
+
+    const handleBookingData = async (e) => {
         e.preventDefault();
         const form = e.target;
         const date = form.date.value;
@@ -17,21 +19,30 @@ const BookingModal = ({ treatment, selected, refetch }) => {
         const phone = form.phone.value;
         const email = form.email.value;
 
-        const bookingInfo ={
+        const bookingInfo = {
             appointmentDate: date,
             treatment: treatmentName,
             patient: name,
             email,
-            phone,            
+            phone,
             slot,
             price
         }
         // console.log(bookingInfo)
-        const result = await axiosSecure.post('/bookings', bookingInfo);
-        console.log(result.data)
-        if(result.data.insertedId){
-            refetch();
-        }
+        axiosSecure.post('/bookings', bookingInfo, { withCredentials: true })
+            .then(res => {
+                if (res.data.insertedId) {
+                    refetch();
+                    Swal.fire({
+                        position: "top-end",
+                        icon: "success",
+                        title: `Your have successfully Booked ${treatmentName}`,
+                        showConfirmButton: false,
+                        timer: 1500
+                    });
+                }
+            })
+
     }
 
     return (
@@ -63,7 +74,9 @@ const BookingModal = ({ treatment, selected, refetch }) => {
                         <input type="email" name="email" placeholder="Email" defaultValue={user?.email} className="input input-bordered" required />
                     </div>
                     <div className="form-control mt-6">
-                        <button className="btn btn-primary uppercase">Submit</button>
+                        
+                            <button className="w-full btn btn-primary uppercase" data-dismiss="modal">Submit</button>
+                                              
                     </div>
                 </form>
             </div>

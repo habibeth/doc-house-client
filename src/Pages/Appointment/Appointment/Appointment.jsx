@@ -7,7 +7,7 @@ import AvailableAppointment from "../AppointmentOption/AvailableAppointment";
 const Appointment = () => {
     const [selected, setSelected] = useState(new Date());
     return (
-        <div>
+        <div className="pt-5">
             <SharedBanner pagination={"Home / Appointment"} title={"Appointment"}></SharedBanner>
             <AppointmentBanner selected={selected} setSelected={setSelected}></AppointmentBanner>
             <AvailableAppointment selected={selected}></AvailableAppointment>
