@@ -29,6 +29,7 @@ const BookingModal = ({ treatment, selected, refetch }) => {
             price
         }
         // console.log(bookingInfo)
+<<<<<<< HEAD
         axiosSecure.post('/bookings', bookingInfo, { withCredentials: true })
             .then(res => {
                 if (res.data.insertedId) {
@@ -43,6 +44,14 @@ const BookingModal = ({ treatment, selected, refetch }) => {
                 }
             })
 
+=======
+        const result = await axiosSecure.post('/bookings', bookingInfo, {withCredentials: true});
+        const data = result.data;
+        console.log(data)
+        if(data.insertedId){
+            refetch();
+        }
+>>>>>>> e9f0aa3dd2a262d97da1c42a68a5f043f32e2a09
     }
 
     return (

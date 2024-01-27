@@ -22,8 +22,12 @@ const Login = () => {
         // console.log(data);
         loginUser(data.email, data.password)
             .then(res => {
+<<<<<<< HEAD
                 // const user = res.user;
                 // console.log(user)
+=======
+                
+>>>>>>> e9f0aa3dd2a262d97da1c42a68a5f043f32e2a09
                 Swal.fire({
                     icon: "success",
                     title: "User Login Successfully",

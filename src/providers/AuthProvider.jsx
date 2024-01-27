@@ -38,7 +38,7 @@ const AuthProvider = ({ children }) => {
             const userInfo = currentUser?.email || user?.email;
             const loggedUser = {email: userInfo}
             if(currentUser){
-                axiosPublic.post('/jwt', loggedUser, {withCredentials: true})
+                axiosPublic.post('/jwt', loggedUser)
                 .then(res=>{
                     console.log(res.data)
                     // if(res.data?.token){
@@ -50,7 +50,7 @@ const AuthProvider = ({ children }) => {
             else{
                 axiosPublic.post('/logout', loggedUser, {withCredentials: true})
                 .then(res=>{
-                    console.log(res.data)
+                    // console.log(res.data)
                     setLoading(false)
                 })
             }
