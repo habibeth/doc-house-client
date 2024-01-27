@@ -27,9 +27,10 @@ const BookingModal = ({ treatment, selected, refetch }) => {
             price
         }
         // console.log(bookingInfo)
-        const result = await axiosSecure.post('/bookings', bookingInfo);
-        console.log(result.data)
-        if(result.data.insertedId){
+        const result = await axiosSecure.post('/bookings', bookingInfo, {withCredentials: true});
+        const data = result.data;
+        console.log(data)
+        if(data.insertedId){
             refetch();
         }
     }
