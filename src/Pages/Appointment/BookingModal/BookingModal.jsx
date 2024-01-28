@@ -29,8 +29,7 @@ const BookingModal = ({ treatment, selected, refetch }) => {
             price
         }
         // console.log(bookingInfo)
-<<<<<<< HEAD
-        axiosSecure.post('/bookings', bookingInfo, { withCredentials: true })
+        axiosSecure.post('/bookings', bookingInfo, {withCredentials: true})
             .then(res => {
                 if (res.data.insertedId) {
                     refetch();
@@ -43,15 +42,15 @@ const BookingModal = ({ treatment, selected, refetch }) => {
                     });
                 }
             })
+        // axiosSecure.post('/bookings', bookingInfo, { withCredentials: true })
+        //     .then(res => {
+        //         const data = res.data;
+        //         console.log(data)
+        //         if (data.insertedId) {
+        //             refetch();
+        //         }
+        //     })
 
-=======
-        const result = await axiosSecure.post('/bookings', bookingInfo, {withCredentials: true});
-        const data = result.data;
-        console.log(data)
-        if(data.insertedId){
-            refetch();
-        }
->>>>>>> e9f0aa3dd2a262d97da1c42a68a5f043f32e2a09
     }
 
     return (
@@ -83,9 +82,9 @@ const BookingModal = ({ treatment, selected, refetch }) => {
                         <input type="email" name="email" placeholder="Email" defaultValue={user?.email} className="input input-bordered" required />
                     </div>
                     <div className="form-control mt-6">
-                        
-                            <button className="w-full btn btn-primary uppercase" data-dismiss="modal">Submit</button>
-                                              
+
+                        <button className="w-full btn btn-primary uppercase" data-dismiss="modal">Submit</button>
+
                     </div>
                 </form>
             </div>
