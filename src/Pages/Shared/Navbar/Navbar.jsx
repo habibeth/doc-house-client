@@ -3,10 +3,11 @@ import logo from '../../../assets/logo/logo.png'
 import useAuth from '../../../hooks/useAuth'
 import Swal from 'sweetalert2';
 import './Navbar.css'
+import useAdmin from '../../../hooks/useAdmin';
 
 const Navbar = () => {
     const { user, logOut } = useAuth();
-    const isAdmin = true;
+    const [isAdmin] = useAdmin();
     const handleLogout=()=>{
         logOut()
         .then(()=>{

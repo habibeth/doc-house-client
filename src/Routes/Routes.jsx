@@ -12,6 +12,7 @@ import CustomerReviews from "../Pages/Dashboard/CustomerReviews/CustomerReviews"
 import CustomerHistory from "../Pages/Dashboard/CustomerHistory/CustomerHistory";
 import AdminDashboard from "../Pages/Dashboard/AdminDashboard/AdminDashboard";
 import AllUsers from "../Pages/Dashboard/AllUsers/AllUsers";
+import AdminRoute from "./AdminRoute";
 
 
 const router = createBrowserRouter([
@@ -49,11 +50,11 @@ const router = createBrowserRouter([
             //admin Route
             {
                 path: 'adminDashboard',
-                element: <PrivateRoute><AdminDashboard></AdminDashboard></PrivateRoute>
+                element: <AdminRoute><PrivateRoute><AdminDashboard></AdminDashboard></PrivateRoute></AdminRoute>
             },
             {
                 path: 'allUsers',
-                element: <PrivateRoute><AllUsers></AllUsers></PrivateRoute>
+                element: <AdminRoute><PrivateRoute><AllUsers></AllUsers></PrivateRoute></AdminRoute>
             },
             //userRoute
             {
