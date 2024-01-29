@@ -43,7 +43,7 @@ const ClientReviews = () => {
                             <div className="m-7 bg-base-200 p-10 rounded-lg border">
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center">
-                                        <img src={review.customerImage} alt="" />
+                                        <img src={review.customerImage} alt="" className='w-16 rounded-full' />
                                         <div className="ml-4">
                                             <h2 className='text-xl font-semibold'>{review.customerName}</h2>
                                             <p>{review.customerProfession}</p>

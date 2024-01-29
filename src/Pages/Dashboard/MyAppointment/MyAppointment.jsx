@@ -14,8 +14,8 @@ const MyAppointment = () => {
             return data;
         }
     })
-    console.log(email);
-    console.log(bookings)
+    // console.log(email);
+    // console.log(bookings)
     return (
         <div className="pr-10 mb-20">
             <h2 className="text-2xl font-bold mb-5">My Appointments : {bookings?.length}</h2>

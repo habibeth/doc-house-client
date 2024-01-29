@@ -6,6 +6,7 @@ import './Navbar.css'
 
 const Navbar = () => {
     const { user, logOut } = useAuth();
+    const isAdmin = true;
     const handleLogout=()=>{
         logOut()
         .then(()=>{
@@ -22,7 +23,13 @@ const Navbar = () => {
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/about">About</NavLink></li>
         <li><NavLink to="/appointment">Appointment</NavLink></li>
-        <li><NavLink to="/dashboard">Dashboard</NavLink></li>
+        {
+            user && isAdmin && <li><NavLink to="/dashboard/adminDashboard">Dashboard</NavLink></li>
+        }
+        {
+            user && !isAdmin && <li><NavLink to="/dashboard/appointment">Dashboard</NavLink></li>
+        }
+        
         {
             user ?
                 <>
