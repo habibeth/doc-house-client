@@ -10,8 +10,10 @@ import { LuCircleDollarSign } from "react-icons/lu";
 import { FaCalendar, FaStar } from "react-icons/fa";
 import useDoctors from "../../../hooks/useDoctors";
 import { Link } from "react-router-dom";
+import { format } from 'date-fns';
 
 const OurDoctors = () => {
+    const date = format(new Date(), 'PP')
     // const [doctors, setDoctors] = useState([]);
 
     // useEffect(() => {
@@ -59,7 +61,7 @@ const OurDoctors = () => {
                                     </div>
                                     <div className="flex items-center my-2">
                                         <FaCalendar />
-                                        <p className="ml-2">Available on {doctor.availableOn}</p>
+                                        <p className="ml-2">Available on {date}</p>
                                     </div>
                                     <div className="flex items-center mb-5">
                                         <LuCircleDollarSign />

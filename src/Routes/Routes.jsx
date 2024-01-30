@@ -13,6 +13,7 @@ import CustomerHistory from "../Pages/Dashboard/CustomerHistory/CustomerHistory"
 import AdminDashboard from "../Pages/Dashboard/AdminDashboard/AdminDashboard";
 import AllUsers from "../Pages/Dashboard/AllUsers/AllUsers";
 import AdminRoute from "./AdminRoute";
+import AddADoctor from "../Pages/Dashboard/AddADoctor/AddADoctor";
 
 
 const router = createBrowserRouter([
@@ -55,6 +56,10 @@ const router = createBrowserRouter([
             {
                 path: 'allUsers',
                 element: <AdminRoute><PrivateRoute><AllUsers></AllUsers></PrivateRoute></AdminRoute>
+            },
+            {
+                path: 'addDoctor',
+                element: <AdminRoute><PrivateRoute><AddADoctor></AddADoctor></PrivateRoute></AdminRoute>
             },
             //userRoute
             {
