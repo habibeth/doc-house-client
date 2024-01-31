@@ -4,21 +4,22 @@ import useAuth from '../../../hooks/useAuth'
 import Swal from 'sweetalert2';
 import './Navbar.css'
 import useAdmin from '../../../hooks/useAdmin';
+import { useEffect, useState } from 'react';
 
 const Navbar = () => {
     const { user, logOut } = useAuth();
     const [isAdmin] = useAdmin();
-    const handleLogout=()=>{
+    const handleLogout = () => {
         logOut()
-        .then(()=>{
-            Swal.fire({
-                icon: "success",
-                title: "Successfully you are Logout",
-                showConfirmButton: false,
-                timer: 1500
-              });
-        })
-        .catch(error=> console.log(error))
+            .then(() => {
+                Swal.fire({
+                    icon: "success",
+                    title: "Successfully you are Logout",
+                    showConfirmButton: false,
+                    timer: 1500
+                });
+            })
+            .catch(error => console.log(error))
     }
     const menuItems = <>
         <li><NavLink to="/">Home</NavLink></li>
@@ -30,7 +31,7 @@ const Navbar = () => {
         {
             user && !isAdmin && <li><NavLink to="/dashboard/appointment">Dashboard</NavLink></li>
         }
-        
+
         {
             user ?
                 <>
@@ -44,8 +45,19 @@ const Navbar = () => {
         }
     </>
 
+    const [navColor, setnavColor] = useState("#07332F");
+    const listenScrollEvent = () => {
+        window.scrollY > 10 ? setnavColor("#252734") : setnavColor("#07332F");
+    };
+    useEffect(() => {
+        window.addEventListener("scroll", listenScrollEvent);
+        return () => {
+            window.removeEventListener("scroll", listenScrollEvent);
+        };
+    }, []);
+
     return (
-        <div className="bg-[#07332F] bg-navbar">
+        <div className="bg-[#07332F] sticky top-0 z-50" style={{backgroundColor: navColor, transition: "all 1s"}}>
             <div className='text-white max-w-6xl mx-auto'>
                 <div className="navbar">
                     <div className="navbar-start">
