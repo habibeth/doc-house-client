@@ -39,7 +39,7 @@ const AuthProvider = ({ children }) => {
             const userInfo = currentUser?.email || user?.email;
             const loggedUser = {email: userInfo}
             if(currentUser){
-                axiosPublic.post('/jwt', loggedUser)
+                axiosPublic.post('/jwt', loggedUser, {withCredentials: true})
                 .then(res=>{
                     console.log(res.data)
                     // if(res.data?.token){

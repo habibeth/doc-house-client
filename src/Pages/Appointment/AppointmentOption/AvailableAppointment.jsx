@@ -15,7 +15,7 @@ const AvailableAppointment = ({ selected }) => {
     const { data: appointmentOption, refetch, isLoading } = useQuery({
         queryKey: ['appointmentOption', date],
         queryFn: async () => {
-            const res = await axiosPublic.get(`/appointmentOption?date=${date}`)
+            const res = await axiosPublic.get(`/appointmentOption?date=${date}`, {withCredentials: true})
             return res.data;
         }
     })
