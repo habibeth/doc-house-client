@@ -30,6 +30,7 @@ const OurDoctors = () => {
             </div>
             <Swiper
                 slidesPerView={3}
+                // loop={true}
                 autoplay={{
                     delay: 2500,
                     disableOnInteraction: false,
@@ -37,15 +38,15 @@ const OurDoctors = () => {
                 modules={[Autoplay]}
                 className="mySwiper"
             >
-                <div className="grid grid-cols-1 md:grid-cols-3">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
 
                     {
                         doctors.map((doctor) => <SwiperSlide className="mr-5" key={doctor._id}>
-                            <div className="card bg-white border p-5">
-                                <figure className="">
+                            <div className="bg-white border rounded-lg">
+                                <figure className="p-5">
                                     <img src={doctor.images} alt="Shoes" className="rounded-xl w-full" />
                                 </figure>
-                                <div className="">
+                                <div className="p-5">
                                     <h2 className="card-title mt-5">{doctor.doctorName}</h2>
                                     <p>BTP- {doctor.specialization}</p>
                                     <div className="text-orange-600 flex mt-2">

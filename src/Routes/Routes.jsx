@@ -14,6 +14,7 @@ import AdminDashboard from "../Pages/Dashboard/AdminDashboard/AdminDashboard";
 import AllUsers from "../Pages/Dashboard/AllUsers/AllUsers";
 import AdminRoute from "./AdminRoute";
 import AddADoctor from "../Pages/Dashboard/AddADoctor/AddADoctor";
+import ManageDoctors from "../Pages/Dashboard/ManageDoctors/ManageDoctors";
 
 
 const router = createBrowserRouter([
@@ -60,6 +61,10 @@ const router = createBrowserRouter([
             {
                 path: 'addDoctor',
                 element: <AdminRoute><PrivateRoute><AddADoctor></AddADoctor></PrivateRoute></AdminRoute>
+            },
+            {
+                path: 'manageDoctors',
+                element: <AdminRoute><PrivateRoute><ManageDoctors></ManageDoctors></PrivateRoute></AdminRoute>
             },
             //userRoute
             {
